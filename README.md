@@ -10,7 +10,7 @@ As you saw, support vector machines are another classification tool to add to yo
 
 Probably the most important information worth reviewing is some of the various kernel functions that you can apply:
 
-1. Radial Basis Functions (RBF)
+1. Radial Basis Function (RBF)
     1. `c`
     2. $\gamma$, which can be specified using `gamma` in scikit-learn
 2. Polynomial Kernel
@@ -21,7 +21,7 @@ Probably the most important information worth reviewing is some of the various k
     1. $\gamma$, which can be specified using `gamma` in scikit-learn
     2. $r$, which can be specified using `coef0` in scikit-learn
 
-Also recall that in general, `c` is the parameter for balancing standard accuracy metrics for tuning classifiers versus the decision boundary distance.
+Also recall that in general, `c` is the parameter for balancing standard accuracy metrics for tuning classifiers with the decision boundary distance.
 
 ## Summary
 
