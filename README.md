@@ -12,14 +12,14 @@ Probably the most important information worth reviewing is some of the various k
 
 1. Radial Basis Function (RBF)
     1. `c`
-    2. $\gamma$, which can be specified using `gamma` in scikit-learn
+    2.  <img src="https://render.githubusercontent.com/render/math?math=\gamma"> , which can be specified using `gamma` in scikit-learn
 2. Polynomial Kernel
-    1. $\gamma$, which can be specified using `gamma` in scikit-learn
-    2. $r$, which can be specified using `coef0` in scikit-learn
-    3. $d$, which can be specified using `degree` in scikit-learn
+    1.  <img src="https://render.githubusercontent.com/render/math?math=\gamma"> , which can be specified using `gamma` in scikit-learn
+    2.  <img src="https://render.githubusercontent.com/render/math?math=r"> , which can be specified using `coef0` in scikit-learn
+    3.  <img src="https://render.githubusercontent.com/render/math?math=d"> , which can be specified using `degree` in scikit-learn
 3. Sigmoid Kernel
-    1. $\gamma$, which can be specified using `gamma` in scikit-learn
-    2. $r$, which can be specified using `coef0` in scikit-learn
+    1.  <img src="https://render.githubusercontent.com/render/math?math=\gamma"> , which can be specified using `gamma` in scikit-learn
+    2.  <img src="https://render.githubusercontent.com/render/math?math=r"> , which can be specified using `coef0` in scikit-learn
 
 Also recall that in general, `c` is the parameter for balancing standard accuracy metrics for tuning classifiers with the decision boundary distance.
 
